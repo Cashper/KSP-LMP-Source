@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>RouteId</FieldName>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>VesselId</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>PrevFuel</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>NextFuel</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

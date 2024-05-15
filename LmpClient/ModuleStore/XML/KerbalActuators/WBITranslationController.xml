@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>currentPosition</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>targetPosition</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>movementState</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>velocityMetersPerSec</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+    </Fields>
+</ModuleDefinition>

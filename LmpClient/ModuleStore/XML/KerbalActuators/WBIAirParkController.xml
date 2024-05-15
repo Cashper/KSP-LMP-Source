@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>isOnRails</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>parkedAltitude</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>previousSituation</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>isParked</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>SetLanded</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>SetFlying</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>TogglePark</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

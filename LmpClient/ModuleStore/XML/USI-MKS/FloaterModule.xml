@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>maxBuoyancy</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>buoyancyPercentageWhenDeployed</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>pumpPower</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>buoyancyWhenStowed</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>isDeployed</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>DeployEvent</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>RetractEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

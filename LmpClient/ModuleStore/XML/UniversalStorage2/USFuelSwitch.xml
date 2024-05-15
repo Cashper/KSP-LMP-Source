@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>configLoaded</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>selectedTankModeOne</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>selectedTankModeTwo</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>hasLaunched</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>nextModeEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>previousModeEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>nextTankSetupEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>previousTankSetupEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

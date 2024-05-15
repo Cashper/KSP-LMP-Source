@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>invertYaw</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>invertPitch</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>invertRoll</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>toggleInvertPitch</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>toggleInvertRoll</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>toggleInvertYaw</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

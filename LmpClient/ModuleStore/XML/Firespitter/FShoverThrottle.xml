@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>defaultMaxThrust</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>toggleHoverEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>toggleLockEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>increaseThrustEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>decreaseThrustEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>increaseHeightEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>decreaseHeightEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

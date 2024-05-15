@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>selectedMapURL</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>selectedTexture</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>selectedTextureURL</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>listAllObjects</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>nextTextureEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>previousTextureEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>nextTextureEVAEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

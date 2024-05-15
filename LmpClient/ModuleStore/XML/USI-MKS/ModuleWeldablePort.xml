@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>portForce</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>portTorque</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>portRoll</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>portRange</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>portAngle</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>portSnap</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>CompressParts</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>CompressPartsRot</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>ResetAcquire</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>MultiWeld</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

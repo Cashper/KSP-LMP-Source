@@ -10,7 +10,7 @@ call "%~dp0\SetDirectories.bat"
 IF DEFINED KSPPATH (ECHO KSPPATH is defined) ELSE (SET KSPPATH=C:\Kerbal Space Program)
 IF DEFINED KSPPATH2 (ECHO KSPPATH2 is defined)
 ::%1
-SET SOLUTIONCONFIGURATION=Debug
+SET SOLUTIONCONFIGURATION=Release
 
 mkdir "%KSPPATH%\GameData\LunaMultiplayer\"
 IF DEFINED KSPPATH2 (mkdir "%KSPPATH2%\GameData\LunaMultiplayer\")

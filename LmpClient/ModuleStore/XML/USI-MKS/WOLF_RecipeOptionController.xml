@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>selectedRecipeIndex</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>SwapRecipe</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>MoveNext</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>MovePrevious</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>
