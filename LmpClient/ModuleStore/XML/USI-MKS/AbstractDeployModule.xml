@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>PartialDeployPercentage</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>StartDeployed</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>DeployEvent</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>PayEvent</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>RetractEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>reverseAnimation</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>animSpeed</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>hasBeenInitialized</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>animTime</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>startDeployed</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>isAnimating</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>toggleEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

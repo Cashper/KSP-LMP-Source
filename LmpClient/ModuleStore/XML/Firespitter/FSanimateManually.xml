@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>invertMotion</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>invertSet</FieldName>
+        </FieldDefinition>
+    </Fields>
+</ModuleDefinition>

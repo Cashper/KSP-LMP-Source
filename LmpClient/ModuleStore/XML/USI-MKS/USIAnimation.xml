@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>isDeployed</FieldName>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>partialDeployCostPaid</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>inflatedCost</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>DeployModule</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>RetractModule</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>greeblesActive</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>experimentsNumber</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>experimentsReturned</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>IsDeployed</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>ToggleEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>ToggleGreebles</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>ReviewInitialData</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

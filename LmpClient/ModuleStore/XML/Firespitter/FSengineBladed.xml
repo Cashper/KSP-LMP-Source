@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>useThrottleState</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>useThrottleKeys</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>steeringResponse</FieldName>
+            <MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>fullSimulation</FieldName>
+        </FieldDefinition>
+        <FieldDefinition>
+            <FieldName>steering</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>toggleHover</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

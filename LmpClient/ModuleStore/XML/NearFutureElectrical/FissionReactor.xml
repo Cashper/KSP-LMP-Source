@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--Radiators have this part module-->
+<ModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Fields>
+        <FieldDefinition>
+            <FieldName>UIIcon</FieldName>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>UIName</FieldName>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>CurrentSafetyOverride</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>CurrentPowerPercent</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>AvailablePower</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>TimewarpShutdown</FieldName>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>TimewarpShutdownFactor</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>CoreIntegrity</FieldName>
+			<MaxIntervalInMs>500</MaxIntervalInMs>
+        </FieldDefinition>
+		<FieldDefinition>
+            <FieldName>FirstLoad</FieldName>
+        </FieldDefinition>
+    </Fields>
+    <Methods>
+        <MethodDefinition>
+            <MethodName>ShowReactorControl</MethodName>
+        </MethodDefinition>
+		<MethodDefinition>
+            <MethodName>RepairReactor</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>

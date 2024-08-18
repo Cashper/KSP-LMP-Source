@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><ModuleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Methods>
+        <MethodDefinition>
+            <MethodName>toggleHoverEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>increaseHeightEvent</MethodName>
+        </MethodDefinition>
+        <MethodDefinition>
+            <MethodName>decreaseHeightEvent</MethodName>
+        </MethodDefinition>
+    </Methods>
+</ModuleDefinition>
